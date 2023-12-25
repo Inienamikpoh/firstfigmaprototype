@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4d4a329eb3.js" crossorigin="anonymous"></script>
     <title>Prototype</title>
 </head>
 <body>
-    <div class="up">
-                        <!-- NAV -->
+                        <!-- HEADER -->
+    <header>
         <nav>
             <div class="logo">
                 <h1>logo</h1>
@@ -28,11 +28,8 @@
                 login
             </button>
             <i class="fa-solid fa-bars"></i>
-        </nav> 
-    </div>
-    <main class="middle">
-                            <!-- HEADER -->
-        <header>
+        </nav>
+        <div class="hero">
             <div class="left_side">
                 <h1>We offer software testing 
                     services and help you 
@@ -65,13 +62,30 @@
                     <div></div>
                 </div>
             </div>
-        </header>
-                            <!-- INTERLUDE -->
-        <div class="interlude_1">
-            <h3>Featured courses</h3> 
         </div>
-                            <!-- FIRST SECTION -->
+                        <!-- INTERLUDE -->
+        <div class="interlude_1">
+            <div class="learning">
+                <div><i class="fa-regular fa-circle-dot" style="color: #3176f5;"></i></div>
+                <h5>Project Based Learning</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="curriculum">
+                <div><i class="fa-solid fa-graduation-cap" style="color: #3176f5;"></i></div>
+                <h5>Dynamic curriculum</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="project">
+                <div><i class="fa-brands fa-chrome" style="color: #3176f5;"></i></div>
+                <h5>Real world project</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+                        <!-- FIRST SECTION -->
         <section class="first_section">
+            <h3>Featured courses</h3>
             <div class="housing">
                 <div class="left_side">
                     <img src="images/FirstSectionImage.png" alt="">
@@ -90,7 +104,7 @@
                 </div>
             </div>
         </section>
-                            <!-- SECOND SECTION -->
+                        <!-- SECOND SECTION -->
         <section class="second_section">
             <div class="housing">
                 <div class="left_side">
@@ -110,7 +124,7 @@
                 </div>
             </div>
         </section>
-                            <!-- THIRD SECTION -->
+                        <!-- THIRD SECTION -->
         <section class="third_section">
             <div class="housing">
                 <div class="left_side">
@@ -129,7 +143,9 @@
                 </div>
             </div>
         </section>
-                            <!-- INTERLUDE -->
+                        <!-- FOURTH SECTION -->
+        <section class="fourth_section">
+            <!-- INTERLUDE -->
         <div class="interlude_2">
             <h3>Where our Graduates Work</h3>
             <div class="compaines">
@@ -155,8 +171,6 @@
                 </div>
             </div>
         </div>
-                            <!-- FOURTH SECTION -->
-        <section class="fourth_section">
             <div class="housing">
                 <div class="left_side">
                     <h2>What our students say</h2>
@@ -204,9 +218,8 @@
             </div>
         </section>
     </main>
-    <div class="down">
-                        <!-- FOOTER -->
-        <footer>
+    <footer>
+        <div class="footer">
             <div class="top">
                 <div class="top_left">
                     <h4>Logo</h4>
@@ -230,9 +243,9 @@
                 <div class="bottom_left">
                     <h5>Sitemaps</h5>
                     <ol>
-                        <li>Home</li>
-                        <li>Features</li>
-                        <li>About Us</li>
+                        <li>Courses</li>
+                        <li>Testimonials</li>
+                        <li>Get Started</li>
                     </ol>
                 </div>
                 <div class="bottom_right">
@@ -244,7 +257,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
