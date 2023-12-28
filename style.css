@@ -15,9 +15,23 @@ body {
     color: #b0b0b0;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     color: #ffffff;
 }
+
+h1 {
+    font-size: 25px;
+    line-height: 2.5rem;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 13px;
+}
+
+
+                    /* HEADER & NAV */
+
 
 header {
     display: flex; 
@@ -40,16 +54,13 @@ header {
     justify-content: center;
 }
 
-
-                        /* NAV */
-
-
 nav {
     color: #b0b0b0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 86%;
+    width: 90%;
+    max-width: 1440px;
 }
 
 .logo {
@@ -93,33 +104,22 @@ nav i{
 
 
 .hero{
-    margin-top: 50px;
-    padding-top: 10px;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 1440px;
 }
-
-
-
-
-
-
 
 .left_side{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 5%;
+    padding: 0 0;
     overflow-wrap: break-word;
 }
 
-h1{
-    font-size: 25px;
-}
-
-p{
-    line-height: 1.5rem;
-    font-size: 13px;
-    margin-top: 20px;
+.hero .left_side p {
+    margin-top: 10px;
 }
 
 .get_started{
@@ -131,34 +131,13 @@ p{
 }
 
 .regular_btn{
-    padding: 15px 30px;
-    font-size: 13px;
+    padding: 14px 30px;
+    font-size: 14px;
     color: #ffffff;
     border-radius: 5px;
     border: 1px;
     background-color: #245CF5;
-    margin-right: 15px;
-}
-
-.play {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    text-align: center;
-    height: 15px;
-    width: 110px;
-}
-
-.play p {
-    color: #ffffff;
-}
-.triangle{
-    border-color: transparent transparent #ffffff transparent;
-    border-style: solid;
-    border-width: 0px 4px 6px 4px;
-    height: 0px;
-    width: 0px;
-    transform: rotate(90deg);
+    margin-right: 20px;
 }
 
 .triangle_holder{
@@ -171,6 +150,30 @@ p{
     justify-content: end;
     padding-right: 4px;
 }
+
+.triangle{
+    border-color: transparent transparent #ffffff transparent;
+    border-style: solid;
+    border-width: 0px 4px 6px 4px;
+    height: 0px;
+    width: 0px;
+    transform: rotate(90deg);
+}
+
+.play {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    text-align: center;
+    height: 18px;
+    width: 110px;
+}
+
+.play p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
 
 .right_side{
     display: flex;
