@@ -85,7 +85,7 @@ nav {
     display: none;
 }
 
-.login{
+.login {
     font-size: 13px;
     padding: 5px 38px;
     margin-left: 50px;
@@ -103,18 +103,18 @@ nav i{
                     /* HERO */
 
 
-.hero{
+.hero {
     margin-top: 100px;
     width: 90%;
     max-width: 1440px;
 }
 
-.left_side{
+.left_side {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 0;
+    width: 100%;
     overflow-wrap: break-word;
 }
 
@@ -122,7 +122,7 @@ nav i{
     margin-top: 10px;
 }
 
-.get_started{
+.get_started {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -130,7 +130,7 @@ nav i{
     width: 100%;
 }
 
-.regular_btn{
+.regular_btn {
     padding: 14px 30px;
     font-size: 14px;
     color: #ffffff;
@@ -138,6 +138,15 @@ nav i{
     border: 1px;
     background-color: #245CF5;
     margin-right: 20px;
+}
+
+.play {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    text-align: center;
+    height: 18px;
+    width: 110px;
 }
 
 .triangle_holder{
@@ -160,19 +169,11 @@ nav i{
     transform: rotate(90deg);
 }
 
-.play {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    text-align: center;
-    height: 18px;
-    width: 110px;
-}
-
 .play p {
     color: #ffffff;
     font-size: 13px;
 }
+
 
 
 .right_side{
