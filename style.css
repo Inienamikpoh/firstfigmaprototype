@@ -11,7 +11,7 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    background-color: #170720;
+    background-color: #100217;
     color: #b0b0b0;
 }
 
@@ -20,13 +20,13 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 2.5rem;
 }
 
 p {
     line-height: 1.5rem;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -43,7 +43,7 @@ header {
 
 .up {
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: #000000;
     border-bottom: 5px solid #7d00a0;
     position: fixed;
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav_items {
-    width: 56%;
+    width: 60%;
 }
 
 .nav_items ul {
@@ -110,13 +110,16 @@ nav i{
 }
 
 .left_side {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+    overflow-wrap: break-word; 
     width: 100%;
-    overflow-wrap: break-word;
+}
+
+.hero .left_side {
+    padding: 50px 0 50px 0; 
 }
 
 .hero .left_side p {
@@ -150,7 +153,7 @@ nav i{
     width: 110px;
 }
 
-.triangle_holder{
+.triangle_holder {
     background-color: #245CF5;
     width: 18px;
     height: 18px;
@@ -175,30 +178,30 @@ nav i{
     font-size: 13px;
 }
 
-
-
-.right_side{
+.right_side {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 5%;
     overflow-wrap: break-word;
+    width: 100%;
 }
 
-.left_side img, .right_side img{
-    width: 85%;
+.left_side img, .right_side img {
+    width: 94%;
+    max-width: 300px;
 } 
 
-.slider_space{
+.slider_space {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10px;
     width: 100%;
+    margin: 20px 0 20px 0;
 }
 
-.rectangles{
+.rectangles {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -206,27 +209,32 @@ nav i{
     width: 50px;
 }
 
-.rectangles div{
+.rectangles div {
     height: 100%;
     width: 20px;
     border-radius: 15%;
 }
 
-.rectangles div:nth-child(1){
+.rectangles div:nth-child(1) {
     background-color: #245CF5;
 }
 
-.rectangles div:nth-child(2){
+.rectangles div:nth-child(2) {
     background-color: #3F3F3F;
 }
 
 
+                    /* INTERLUDE */
 
 
-.first_holder .company img{
+
+
+
+
+.first_holder .company img {
     width: 10px;
 }
 
-.second_holder .company img{
+.second_holder .company img {
     width: 10px;
 }
