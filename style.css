@@ -236,7 +236,6 @@ nav i{
     font-weight: 400;
     width: 90%;
     padding: 60px 0 60px 0;
-    /* background-color: #7d00a0; */
 }
 
 .interlude_1 div {
@@ -260,11 +259,11 @@ nav i{
     background-color: #2f2f2f;
 }
 
-.interlude_1 i:nth-child(1) {
-    font-size: 32px;
+.interlude_1 i:first-child{
+    font-size: 50px;
 }
 .interlude_1 i:nth-child(1) {
-    font-size: 32px;
+    font-size: 20px;
 }
 .interlude_1 i:nth-child(1) {
     font-size: 32px;
