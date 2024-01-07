@@ -198,7 +198,7 @@ nav i{
     justify-content: center;
     height: 10px;
     width: 100%;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 30px 0;
 }
 
 .rectangles {
@@ -234,9 +234,8 @@ nav i{
     justify-content: center;
     max-width: 1440px;
     font-weight: 400;
-    background-color: #245CF5;
     width: 90%;
-    padding: 60px 0 60px 0;
+    padding: 100px 0 100px 0;
 }
 
 .interlude_1 div {
@@ -246,7 +245,6 @@ nav i{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    background-color: #7d00a0; 
     margin: 15px 0 15px 0;
 }
 
