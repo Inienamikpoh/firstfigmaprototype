@@ -205,13 +205,13 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 4px;
+    height: 2px;
     width: 50px;
 }
 
 .rectangles div {
     height: 100%;
-    width: 20px;
+    width: 22px;
     border-radius: 15%;
 }
 
@@ -258,14 +258,14 @@ nav i{
     background-color: #2f2f2f;
 }
 
-.interlude_1 i:first-child{
-    font-size: 50px;
-}
-.interlude_1 i:nth-child(1) {
-    font-size: 20px;
-}
-.interlude_1 i:nth-child(1) {
+.interlude_1 .learning div i {
     font-size: 32px;
+}
+.interlude_1 .curriculum div i {
+    font-size: 24px;
+}
+.interlude_1 .project div i {
+    font-size: 28px;
 }
 
 .first_holder .company img {
