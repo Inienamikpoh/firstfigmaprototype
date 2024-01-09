@@ -44,8 +44,29 @@ p {
     color: #b0b0b0;
 }
 
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
+    max-width: 1440px;
+}
+
+.housing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .left_side,
@@ -132,10 +153,6 @@ nav i {
     color: #ffffff;
 }
 
-.housing {
-    display: flex;
-    flex-direction: column;
-}
 
                     /* HERO */
 
@@ -252,6 +269,7 @@ nav i {
     max-width: 1440px;
     font-weight: 400;
     width: 90%;
+    max-width: 1440px;
     padding: 50px 0 70px 0;
 }
 
@@ -293,21 +311,7 @@ nav i {
                     /* FIRST SECTION */
 
 
-main {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 .first_section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    max-width: 1440px;
     padding-bottom: 90px;
 }
 
