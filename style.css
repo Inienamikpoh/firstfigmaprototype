@@ -337,25 +337,6 @@ nav i {
 
 .second__section {
     padding: 90px 0 90px 0;
-    text-align: left;
-    background-color: red;
-}
-.second_section h2{
-    margin-bottom: 1.5rem;
-    margin-left: 2.5rem;
-    
-}
-.second_section p{
-    padding-bottom: 1rem;
-}
-.second_section .left_side button {
-    /* justify-content: start; */
-    align-self: center;
-    
-}
-
-.second_section .right_side{
-    /* padding: 1rem; */
 }
 
 
