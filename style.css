@@ -320,7 +320,7 @@ nav i {
 }
 
 .first_section .right_side {
-    align-items: start;
+    align-items: center;
     padding: 60px 0 40px 0; 
 }
 
@@ -335,8 +335,16 @@ nav i {
 
                     /* SECOND SECTION */
 
+
 .second__section {
     padding: 90px 0 90px 0;
+}
+
+.second_section .left_side {
+    align-self: center;
+}
+.second_section .right_side h2, .second_section .left_side button  {
+    align-self: center;
 }
 
 
