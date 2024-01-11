@@ -338,6 +338,7 @@ nav i {
 
 .second__section {
     padding: 90px 0 90px 0;
+    margin: 60px 0 90px 0;
 }
 
 .second_section .left_side {
@@ -353,6 +354,9 @@ nav i {
     align-self: center;
 }
 
+.second_section .right_side image {
+    margin: 10px 0 10px 0;
+}
 
 
 
