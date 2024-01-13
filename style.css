@@ -61,14 +61,6 @@ section {
     max-width: 1440px;
 }
 
-.housing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 .left_side,
 .right_side  {
     display: flex;
