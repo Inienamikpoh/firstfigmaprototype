@@ -328,9 +328,10 @@ nav i {
                     /* SECOND SECTION */
 
 
-.second__section {
+.second_section {
     padding: 90px 0 90px 0;
     margin: 60px 0 90px 0;
+    background-color: red;
 }
 
 .second_section .left_side {
