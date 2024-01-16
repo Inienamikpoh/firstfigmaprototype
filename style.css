@@ -262,7 +262,6 @@ nav i {
     width: 90%;
     max-width: 1440px;
     padding: 50px 0 100px 0;
-    /* background-color: blue; */
 }
 
 .interlude_1 div {
@@ -309,7 +308,7 @@ nav i {
 }
 
 .first_section h3 {
-    margin: 0 0 71px 0;
+    margin: 0 0 69px 0;
 }
 
 .first_section .right_side {
