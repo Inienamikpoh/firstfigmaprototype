@@ -258,11 +258,10 @@ nav i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
     font-weight: 400;
     width: 90%;
     max-width: 1440px;
-    padding: 50px 0 70px 0;
+    padding: 10px 0 10px 0;
     background-color: blue;
 }
 
