@@ -261,8 +261,8 @@ nav i {
     font-weight: 400;
     width: 90%;
     max-width: 1440px;
-    padding: 10px 0 10px 0;
-    background-color: blue;
+    padding: 50px 0 100px 0;
+    /* background-color: blue; */
 }
 
 .interlude_1 div {
