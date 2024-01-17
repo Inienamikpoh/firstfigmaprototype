@@ -334,7 +334,7 @@ nav i {
 .second_section .left_side {
     align-self: center;
     align-items: start;
-    padding: 50px 0 50px 0;
+    padding: 20px 0 80px 0;
 }
 
 .second_section .left_side p {
@@ -352,6 +352,10 @@ nav i {
 
                     /* THIRD SECTION */
 
+
+.third_section{
+    padding: 100px 0 100px 0;
+}
 
 
 
