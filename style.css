@@ -336,7 +336,7 @@ nav i {
 .second_section .left_side {
     align-self: center;
     align-items: start;
-    padding: 100px 0 80px 0;
+    padding: 20px 0 80px 0;
 }
 
 .second_section .left_side p {
@@ -358,24 +358,6 @@ nav i {
 .third_section{
     padding: 100px 0 75px 0;
     background-color: chartreuse;
-}
-
-.second_section .left_side {
-    align-self: center;
-    align-items: start;
-    padding: 20px 0 80px 0;
-}
-
-.second_section .left_side p {
-    margin: 30px 0 20px 0;
-}
-
-.second_section .left_side h2, .second_section .left_side button  {
-    align-self: center;
-}
-
-.second_section .right_side image {
-    margin: 10px 0 10px 0;
 }
 
 
