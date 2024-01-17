@@ -347,10 +347,6 @@ nav i {
     align-self: center;
 }
 
-.second_section .right_side image {
-    margin: 10px 0 10px 0;
-}
-
 
                     /* THIRD SECTION */
 
@@ -358,6 +354,12 @@ nav i {
 .third_section{
     padding: 100px 0 75px 0;
     background-color: chartreuse;
+}
+
+.third_section .left_side {
+    align-self: center;
+    align-items: start;
+    padding: 20px 0 80px 0;
 }
 
 
