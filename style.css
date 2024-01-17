@@ -304,7 +304,6 @@ nav i {
 
 .first_section {
     padding-bottom: 75px;
-    background-color: aqua;
 }
 
 .first_section h3 {
@@ -330,7 +329,6 @@ nav i {
 
 .second_section {
     padding: 75px 0 100px 0;
-    background-color: chocolate;
 }
 
 .second_section .left_side {
@@ -356,12 +354,16 @@ nav i {
     background-color: chartreuse;
 }
 
-.third_section .left_side {
+.third_section .right_side {
     align-self: center;
     align-items: start;
-    padding: 20px 0 80px 0;
+    padding: 50px 0 50px 0;
 }
 
+.third_section .right_side p{
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+}
 
 
 
