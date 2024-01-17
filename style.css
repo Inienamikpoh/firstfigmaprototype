@@ -365,6 +365,9 @@ nav i {
     font-weight: 400;
 }
 
+.third_section .right_side ul{
+    list-style: none;
+}
 
 
 .first_holder .company img {
