@@ -261,7 +261,7 @@ nav i {
     font-weight: 400;
     width: 90%;
     max-width: 1440px;
-    padding: 50px 0 100px 0;
+    padding: 80px 0 100px 0;
 }
 
 .interlude_1 div {
@@ -303,12 +303,11 @@ nav i {
 
 
 .first_section {
-    padding-bottom: 90px;
-    background-color: green;
+    padding-bottom: 100px;
 }
 
 .first_section h3 {
-    margin: 0 0 69px 0;
+    margin: 10px 0 69px 0;
 }
 
 .first_section .right_side {
@@ -321,7 +320,7 @@ nav i {
 }
 
 .first_section .right_side p {
-    margin: 30px 0 20px 0;
+    margin: 15px 0 15px 0;
 }
 
 
@@ -329,15 +328,13 @@ nav i {
 
 
 .second_section {
-    padding: 90px 0 90px 0;
-    margin: 60px 0 90px 0;
-    background-color: red;
+    padding: 100px 0 100px 0;
 }
 
 .second_section .left_side {
     align-self: center;
     align-items: start;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .second_section .left_side p {
