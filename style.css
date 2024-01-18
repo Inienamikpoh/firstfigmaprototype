@@ -76,6 +76,14 @@ section {
     max-width: 300px;
 } 
 
+.regular_btn {
+    padding: 14px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #245CF5;
+}
 
                     /* HEADER & NAV */
 
@@ -174,13 +182,7 @@ nav i {
     width: 100%;
 }
 
-.regular_btn {
-    padding: 14px 30px;
-    font-size: 14px;
-    color: #ffffff;
-    border-radius: 5px;
-    border: 1px;
-    background-color: #245CF5;
+.hero .regular_btn {
     margin-right: 20px;
 }
 
@@ -365,6 +367,15 @@ nav i {
     font-weight: 400;
 }
 
+.transparent_btn {
+    padding: 14px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #245CF5;
+    margin-right: 20px;
+}
 .third_section .right_side ul{
     list-style: none;
 }
