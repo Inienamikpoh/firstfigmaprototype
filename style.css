@@ -353,7 +353,6 @@ nav i {
 
 .third_section {
     padding: 100px 0 75px 0;
-    /* background-color: chartreuse; */
 }
 
 .third_section .right_side {
@@ -367,6 +366,14 @@ nav i {
     font-weight: 400;
 }
 
+.third_section .right_side ul {
+    list-style: none;
+}
+
+.third_section .right_side ul li {
+    color: #ffffff;
+}
+
 .third_section .transparent_btn {
     padding: 10px 30px;
     font-size: 14px;
@@ -374,9 +381,6 @@ nav i {
     border-radius: 5px;
     border: 1px solid #245CF5;
     background-color: transparent;
-}
-.third_section .right_side ul {
-    list-style: none;
 }
 
 
