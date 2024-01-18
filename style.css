@@ -81,7 +81,7 @@ section {
     font-size: 14px;
     color: #ffffff;
     border-radius: 5px;
-    border: 1px;
+    border: 1px solid #245CF5;
     background-color: #245CF5;
 }
 
@@ -351,7 +351,7 @@ nav i {
                     /* THIRD SECTION */
 
 
-.third_section{
+.third_section {
     padding: 100px 0 75px 0;
     background-color: chartreuse;
 }
@@ -362,12 +362,12 @@ nav i {
     padding: 50px 0 50px 0;
 }
 
-.third_section .right_side p{
+.third_section .right_side p {
     margin: 20px 0 20px 0;
     font-weight: 400;
 }
 
-.transparent_btn {
+.third_section .transparent_btn {
     padding: 14px 30px;
     font-size: 14px;
     color: #ffffff;
@@ -376,7 +376,7 @@ nav i {
     background-color: #245CF5;
     margin-right: 20px;
 }
-.third_section .right_side ul{
+.third_section .right_side ul {
     list-style: none;
 }
 
