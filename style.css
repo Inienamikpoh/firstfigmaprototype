@@ -332,7 +332,7 @@ nav i {
 }
 
 .second_section .left_side {
-    align-self: center;
+    /* align-self: center; */
     align-items: start;
     padding: 20px 0 80px 0;
 }
@@ -355,7 +355,7 @@ nav i {
 }
 
 .third_section .right_side {
-    align-self: center;
+    /* align-self: center; */
     align-items: start;
     padding: 50px 0 50px 0;
 }
