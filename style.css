@@ -377,6 +377,20 @@ nav i {
     font-size: 13px;
 }
 
+.third_section .right_side ul li div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #245CF5;
+}
+
+.third_section .right_side ul li div i {
+    color: #ffffff;
+    font-size: 14px;
+}
 .third_section .transparent_btn {
     padding: 10px 30px;
     font-size: 14px;
