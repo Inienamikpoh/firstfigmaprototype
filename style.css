@@ -364,6 +364,7 @@ nav i {
 
 .third_section .right_side p {
     margin: 20px 0 20px 0;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -373,6 +374,7 @@ nav i {
 
 .third_section .right_side ul li {
     color: #ffffff;
+    font-size: 13px;
 }
 
 .third_section .transparent_btn {
