@@ -373,8 +373,12 @@ nav i {
 }
 
 .third_section .right_side ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #ffffff;
     font-size: 13px;
+    width: 150px;
 }
 
 .third_section .right_side ul li div {
