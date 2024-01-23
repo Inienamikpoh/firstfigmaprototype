@@ -353,7 +353,6 @@ nav i {
 
 .third_section {
     padding: 100px 0 75px 0;
-    background-color: coral;
 }
 
 .third_section .right_side {
@@ -375,7 +374,6 @@ nav i {
 .third_section .right_side ul li {
     display: flex;
     color: #ffffff;
-    background-color: #7d00a0;
     font-size: 13px;
     margin-bottom: 10px;
 }
@@ -384,20 +382,20 @@ nav i {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     background-color: #245CF5;
-    margin-right: 14px;
+    margin-right: 8px;
 }
 
 .third_section .right_side ul li div i {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .third_section .transparent_btn {
-    padding: 10px 30px;
+    padding: 11px 32px;
     font-size: 14px;
     color: #ffffff;
     border-radius: 5px;
