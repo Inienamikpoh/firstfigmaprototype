@@ -373,12 +373,11 @@ nav i {
 }
 
 .third_section .right_side ul li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: #ffffff;
+    background-color: #7d00a0;
     font-size: 13px;
-    width: 150px;
+    margin-left: 14px;
+    margin-bottom: 10px;
 }
 
 .third_section .right_side ul li div {
@@ -395,6 +394,7 @@ nav i {
     color: #ffffff;
     font-size: 12px;
 }
+
 .third_section .transparent_btn {
     padding: 10px 30px;
     font-size: 14px;
