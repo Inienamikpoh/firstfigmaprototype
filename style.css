@@ -359,7 +359,7 @@ nav i {
 .third_section .right_side {
     /* align-self: center; */
     align-items: start;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0px 0;
 }
 
 .third_section .right_side p {
@@ -404,7 +404,10 @@ nav i {
     border: 1px solid #245CF5;
     background-color: transparent;
 }
+.interlude_2 {
+    padding: 50px 0 50px 0;
 
+}
 
 .first_holder .company img {
     width: 10px;
