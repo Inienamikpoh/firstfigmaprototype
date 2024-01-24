@@ -359,7 +359,7 @@ nav i {
 .third_section .right_side {
     /* align-self: center; */
     align-items: start;
-    padding: 50px 0 0px 0;
+    padding: 50px 0 50px 0;
 }
 
 .third_section .right_side p {
@@ -401,12 +401,21 @@ nav i {
     font-size: 14px;
     color: #ffffff;
     border-radius: 8px;
-    border: 1px solid #245c76;
+    border: 1px solid #245CF5;
     background-color: transparent;
 }
-.interlude_2 {
-    padding: 50px 0 50px 0;
 
+
+                    /* INTERLUDE */
+.interlude_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0 100px 0;
+
+}
+
+.interlude_2 h3 {
+    margin-bottom: 40px;
 }
 
 .first_holder .company img {
