@@ -406,16 +406,34 @@ nav i {
 }
 
 
+                    /* FOURTH SECTION  */
+
+            
+.fourth_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1440px;
+}                    
+
+
                     /* INTERLUDE */
+
+
 .interlude_2 {
     display: flex;
     flex-direction: column;
-    padding: 75px 0 100px 0;
-
+    padding: 30px 0 0 0;
 }
 
 .interlude_2 h3 {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
+}
+
+.interlude_2 div {
+    background-color: #1F1D22;
 }
 
 .first_holder .company img {
