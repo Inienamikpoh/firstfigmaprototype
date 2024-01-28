@@ -353,7 +353,6 @@ nav i {
 
 .third_section {
     padding: 100px 0 75px 0;
-    background-color: brown;
 }
 
 .third_section .right_side {
@@ -416,7 +415,6 @@ nav i {
     justify-content: center;
     width: 90%;
     max-width: 1440px;
-    background-color: #137391;
 }                    
 
 
@@ -427,7 +425,8 @@ nav i {
     display: flex;
     flex-direction: column;
     padding: 30px 0 0 0;
-    /* width: 100%; */
+    justify-self: left;
+    width: 100%;
 }
 
 .interlude_2 h3 {
@@ -435,13 +434,9 @@ nav i {
     justify-self: left;
 }
 
-.compaines {
-    /* width: 100%; */
-}
-
 .first_holder .company img, .second_holder .company img {
-    height: 10px;
-    width: 10px;
+    height: 12px;
+    width: 12px;
 }
 
 .company {
@@ -449,9 +444,10 @@ nav i {
     align-items: center;
     justify-content: space-between;
     font-size: 13px;
-    padding: 10px 20px 10px 20px;
-    width: 150px;
-    background-color: red;
+    padding: 25px 40px 25px 40px;
+    width: 145px;
+    background-color: #245CF5 !important;
+
 }
 
 .interlude_2 div {
