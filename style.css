@@ -432,17 +432,14 @@ nav i {
     margin-bottom: 24px;
 }
 
-.interlude_2 .companies {
+.companies {
     font-size: 13px;
 }
+
 .interlude_2 div {
     background-color: #1F1D22;
 }
 
-.first_holder .company img {
-    width: 10px;
-}
-
-.second_holder .company img {
+.first_holder .company img, .second_holder .company img {
     width: 10px;
 }
