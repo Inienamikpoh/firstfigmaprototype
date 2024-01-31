@@ -434,7 +434,10 @@ nav i {
     justify-self: left;
 }
 
-.first_holder .company img, .second_holder .company img {
+.companies {
+    display: grid;
+}
+.company img {
     height: 12px;
     width: 12px;
 }
