@@ -433,6 +433,11 @@ nav i {
 
 .companies {
     display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    background-color: #1F1D22;
+    
+    padding: 10px;
 }
 
 .company img {
@@ -446,11 +451,8 @@ nav i {
     justify-content: space-between;
     font-size: 13px;
     padding: 25px 40px 25px 40px;
-    width: 145px;
-    background-color: #306b6e !important;
+    width: 150px;
+    background-color: #032123 !important;
 
 }
 
-.interlude_2 div {
-    background-color: #1F1D22;
-}
