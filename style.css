@@ -453,6 +453,21 @@ nav i {
     width: 150px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 510px) {
     .companies {
         display: grid;
@@ -465,6 +480,11 @@ nav i {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+
+    .company {
+        padding: 28px 42px 28px 42px;
+    }
+
     .companies :nth-child(4) {
         position: relative;
         left: 100%;
@@ -472,13 +492,13 @@ nav i {
 }
 
 @media screen and (min-width: 900px) {
-    .company {
-        padding: 24px 42px 24px 42px;
-    }
-
     .companies {
         display: grid;
         grid-template-columns: auto auto auto auto;
+    }
+
+    .company {
+        padding: 24px 42px 24px 42px;
     }
 
     .companies :nth-child(4) {
