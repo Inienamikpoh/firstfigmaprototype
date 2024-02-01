@@ -433,11 +433,10 @@ nav i {
 
 .companies {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     justify-items: center;
     background-color: #1F1D22;
-    
-    padding: 10px;
+    border-radius: 5px;
 }
 
 .company img {
@@ -450,8 +449,39 @@ nav i {
     align-items: center;
     justify-content: space-between;
     font-size: 13px;
-    padding: 25px 40px 25px 40px;
-    width: 145px;
-    background-color: #030f2c;
+    padding: 27px 42px 27px 42px;
+    width: 150px;
 }
 
+@media screen and (min-width: 510px) {
+    .companies {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .companies {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .companies :nth-child(4) {
+        position: relative;
+        left: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .company {
+        padding: 24px 42px 24px 42px;
+    }
+
+    .companies {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .companies :nth-child(4) {
+        left: 0;
+    }
+}
