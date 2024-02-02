@@ -505,3 +505,16 @@ nav i {
         left: 0;
     }
 }
+
+@media screen and (min-width: 1080px) {
+    .company {
+        font-size: 20px;
+        padding: 24px 46px 24px 46px;
+        width: 160px;
+    }
+
+    .company img {
+        height: 14px;
+        width: 14px;
+    }
+}
