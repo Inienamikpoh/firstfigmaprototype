@@ -408,12 +408,14 @@ nav i {
 
             
 .fourth_section {
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 90%;
     max-width: 1440px;
+    padding: 100px 0 150px 0;
 }                    
 
 
@@ -423,7 +425,6 @@ nav i {
 .interlude_2 {
     display: flex;
     flex-direction: column;
-    padding: 30px 0 0 0;
     width: 100%;
 }
 
