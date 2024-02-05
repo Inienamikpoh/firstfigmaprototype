@@ -400,6 +400,7 @@ nav i {
     border-radius: 8px;
     border: 1px solid #245CF5;
     background-color: transparent;
+    align-self: center;
 }
 
 
@@ -424,13 +425,13 @@ nav i {
 .interlude_2 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     background-color: #245CF5;
     margin-bottom: 50px;
 }
 
 .interlude_2 h3 {
-    margin-bottom: 24px;
+    margin-bottom: 29px;
 }
 
 .companies {
@@ -464,24 +465,20 @@ nav i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     background-color: #245CF5;
-}
-
-.slider_space {
-    /* background-color: red; */
 }
 
 .circles {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60px;
+    width: 42px;
 }
 
 .circle {
-    height: 8px;
-    width: 8px;
+    height: 6px;
+    width: 6px;
     border-radius: 50%;
     background-color: #333333;
 }
