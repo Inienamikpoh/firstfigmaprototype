@@ -224,7 +224,6 @@ nav i {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10px;
     width: 100%;
     margin: 20px 0 20px 0;
 }
@@ -425,7 +424,9 @@ nav i {
 .interlude_2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    background-color: #245CF5;
+    margin-bottom: 50px;
 }
 
 .interlude_2 h3 {
@@ -458,12 +459,31 @@ nav i {
                     /* GRADUATES */
 
 
-.colon {
+.graduates {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #245CF5;
 }
 
+.slider_space {
+    background-color: red;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
 
 
 
@@ -525,3 +545,44 @@ nav i {
         width: 14px;
     }
 }
+
+
+
+
+
+            <div class="graduates">
+                <div class="left_side">
+                    <h3>What our students say</h3>
+                    <p>Become a sought after test engineer, secure a 
+                        remote or in person job offer and earn high 
+                        income with your software testing skills.
+                    </p>
+                    <div class="quote">
+                        <div class="line"></div>
+                        <div class="box">
+                            <div class="first_enclosing">
+                                <p>Become a sought after test engineer,
+                                    secure a remote or in person job offer and 
+                                    earn high.
+                                </p>
+                            </div>
+                            <div class="second_enclosing">
+                                <div class="graduate">
+                                    <p>Omolola james</p>
+                                    <p>Lagos, Nigeria</p>
+                                </div>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                    <i class="fa-solid fa-star"></i> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <img src="images/FourthSectionImage.png" alt="">
+                </div>
+            </div>
