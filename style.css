@@ -415,7 +415,7 @@ nav i {
     justify-content: center;
     width: 90%;
     max-width: 1440px;
-    padding: 100px 0 150px 0;
+    padding: 100px 0 0 0;
 }                    
 
 
@@ -455,8 +455,14 @@ nav i {
 }
 
 
+                    /* GRADUATES */
 
 
+.colon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 
 
