@@ -409,13 +409,7 @@ nav i {
             
 .fourth_section {
     background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    max-width: 1440px;
-    padding: 100px 0 0 0;
+    padding: 100px 0 75px 0;
 }                    
 
 
@@ -426,7 +420,6 @@ nav i {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #245CF5;
     margin-bottom: 50px;
 }
 
@@ -466,7 +459,6 @@ nav i {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #245CF5;
 }
 
 .circles {
@@ -552,39 +544,4 @@ nav i {
 
 
 
-            <div class="graduates">
-                <div class="left_side">
-                    <h3>What our students say</h3>
-                    <p>Become a sought after test engineer, secure a 
-                        remote or in person job offer and earn high 
-                        income with your software testing skills.
-                    </p>
-                    <div class="quote">
-                        <div class="line"></div>
-                        <div class="box">
-                            <div class="first_enclosing">
-                                <p>Become a sought after test engineer,
-                                    secure a remote or in person job offer and 
-                                    earn high.
-                                </p>
-                            </div>
-                            <div class="second_enclosing">
-                                <div class="graduate">
-                                    <p>Omolola james</p>
-                                    <p>Lagos, Nigeria</p>
-                                </div>
-                                <div class="stars">
-                                    <i class="fa-solid fa-star"></i> 
-                                    <i class="fa-solid fa-star"></i> 
-                                    <i class="fa-solid fa-star"></i> 
-                                    <i class="fa-solid fa-star"></i> 
-                                    <i class="fa-solid fa-star"></i> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="right_side">
-                    <img src="images/FourthSectionImage.png" alt="">
-                </div>
-            </div>
+            
