@@ -461,6 +461,11 @@ nav i {
     width: 100%;
 }
 
+.graduates .left_side {
+    align-items: start;
+    padding: 75px 0 75px 0;
+}
+
 .circles {
     display: flex;
     align-items: center;
