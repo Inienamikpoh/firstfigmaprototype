@@ -473,10 +473,12 @@ nav i {
     margin: 10px 0 20px 0;
 }
 
-.quote {
+.box {
     background-color: #1F1D22;
-    padding: 15px 0 10px 0;
-    Width: 300px;
+    padding: auto 0 10px auto;
+    font-size: 2px;
+    height: 150px;
+    max-width: 300px;
     padding: 0 10px 0 12px;
     border-left: solid 3px #245cf5b6;
 }
@@ -504,7 +506,7 @@ nav i {
     font-size: 13px;
 }
 
-.second_enclosing {
+.student {
     display: flex;
     align-items: start;
     justify-content: space-between;
