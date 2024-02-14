@@ -408,7 +408,7 @@ nav i {
 
             
 .fourth_section {
-    background-color: red;
+    /* background-color: red; */
     padding: 100px 0 75px 0;
 }                    
 
@@ -462,8 +462,25 @@ nav i {
 }
 
 .graduates .left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     align-items: start;
     padding: 75px 0 75px 0;
+}
+
+.graduates .left_side p {
+    margin: 10px 0 20px 0;
+}
+
+.quote {
+    background-color: #1F1D22;
+    padding: 15px 0 10px 0;
+    Width: 300px;
+    padding: 0 10px 0 12px;
+    border-left: solid 3px #245cf5b6;
+    /* overflow-wrap: break-word; */
 }
 
 .circles {
@@ -484,7 +501,16 @@ nav i {
     background-color: #ffffff;
 }
 
+.stars i {
+    color: rgb(235, 173, 16);
+    font-size: 13px;
+}
 
+.second_enclosing {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
 
 
 
