@@ -407,7 +407,6 @@ nav i {
 
             
 .fourth_section {
-    /* background-color: red; */
     padding: 100px 0 75px 0;
 }                    
 
@@ -475,12 +474,15 @@ nav i {
 
 .box {
     background-color: #1F1D22;
-    padding: auto 0 10px auto;
-    font-size: 2px;
+    padding: 0 15px 40px 0;
     height: 150px;
     max-width: 300px;
     padding: 0 10px 0 12px;
     border-left: solid 3px #245cf5b6;
+}
+
+.box p {
+    font-size: 12px;
 }
 
 .circles {
