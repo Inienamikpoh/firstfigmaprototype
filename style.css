@@ -481,6 +481,11 @@ nav i {
     border-left: solid 3px #245cf5b6;
 }
 
+.student {
+    display: flex;
+    fl
+}
+
 .box p {
     font-size: 12px;
 }
