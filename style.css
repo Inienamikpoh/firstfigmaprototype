@@ -470,30 +470,34 @@ nav i {
 
 .graduates .left_side p {
     margin: 10px 0 20px 0;
+    font-size: 12px;
 }
 
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #1F1D22;
-    padding: 12px 15px 12px 10px;
-    height: 180px;
+    padding: 13px 22px 0px 18px;
+    height: 400px;
     max-width: 300px;
     border-left: solid 3px #245cf5b6;
     border-radius: 0 5px 5px 0;
 }
 
 .box p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .quote {
-    /* background-color: chocolate; */
+    background-color: chocolate;
+    /* height: 40px; */
+    font-size: 13px;
 }
 
 .student {
     display: flex;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
 }
 
 .student {
@@ -503,7 +507,7 @@ nav i {
 }
 
 .graduate {
-    /* background-color: #7d00a0; */
+    background-color: #7d00a0;
 }
 
 .stars {
