@@ -478,21 +478,17 @@ nav i {
     flex-direction: column;
     justify-content: space-between;
     background-color: #1F1D22;
-    padding: 13px 22px 0px 18px;
-    height: 400px;
+    padding: 13px 18px 0px 14px;
+    height: 180px;
     max-width: 300px;
     border-left: solid 3px #245cf5b6;
-    border-radius: 0 5px 5px 0;
-}
-
-.box p {
-    font-size: 13px;
+    border-radius: 0 7px 7px 0;
 }
 
 .quote {
-    background-color: chocolate;
-    /* height: 40px; */
-    font-size: 13px;
+    font-size: 12px;
+    /* width: 258px; */
+    /* background-color: chocolate; */
 }
 
 .student {
@@ -506,7 +502,9 @@ nav i {
     justify-content: space-between;
 }
 
-.graduate {
+.graduate:nth-child(1) {
+    color: #100217;
+    font-size: 40px;
     background-color: #7d00a0;
 }
 
