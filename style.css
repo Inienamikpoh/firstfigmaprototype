@@ -313,9 +313,9 @@ nav i {
         column-gap: 8%;
     }
 
-    .interlude_1 :nth-child(3) {
-        /* position: relative; */
-        left: 100%;
+    .interlude_1 div:nth-child(3) {
+        position: relative;
+        left: 60%;
     }
 }                   
 
@@ -344,6 +344,10 @@ nav i {
         display: grid;
         grid-template-columns: auto auto auto;
         column-gap: 4%;
+    }
+
+    .interlude_1 div:nth-child(3) {
+        left: 0;
     }
 }
 
