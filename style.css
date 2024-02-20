@@ -265,13 +265,14 @@ nav i {
 }
 
 .interlude_1 div {
-    height: 190px;
+    height: 170px;
+    max-width: 270px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    margin: 15px 0 15px 0;
+    margin: 12px 0;
 }
 
 .interlude_1 div div {
@@ -285,7 +286,7 @@ nav i {
 }
 
 .interlude_1 div p {
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 .interlude_1 .learning div i {
@@ -447,111 +448,7 @@ nav i {
     width: 150px;
 }
 
-
-                    /* GRADUATES */
-
-
-.graduates {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.graduates .left_side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-items: start;
-    padding: 75px 0 75px 0;
-}
-
-.graduates .left_side p {
-    margin: 10px 0 20px 0;
-    font-size: 12px;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #1F1D22;
-    padding: 15px 18px 11px 14px;
-    height: 150px;
-    max-width: 300px;
-    border-left: solid 3px #245cf5b6;
-    border-radius: 0 7px 7px 0;
-}
-
-.quote span {
-    font-size: 12px;
-    line-height: 1.4rem;
-    background-color: chocolate;
-}
-
-.student {
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    /* background-color: blueviolet; */
-}
-
-.graduate {
-    display: flex;
-    flex-direction: column;
-}
- 
-.graduate span:nth-child(1) {
-    font-size: 12px;
-    font-weight: 500;
-    color: #b0b0b0;
-}
-
-.graduate span:nth-child(2) {
-    font-size: 12px;
-    color: #b0b0b0;
-}
-
-.stars {
-    display: flex;
-    background-color: red;
-    flex-direction: row;
-    justify-content: left;
-    padding: 6px 0 0 24px;
-}
-
-.stars i {
-    color: #ebad10;
-    font-size: 13px;
-}
-
-.circles {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 42px;
-}
-
-.circle {
-    height: 6px;
-    width: 6px;
-    border-radius: 50%;
-    background-color: #333333;
-}
-
-.circle:nth-child(1) {
-    background-color: #ffffff;
-}
-
-
-
-
-
-
-
-
+                    /* media queries  */
 
 @media screen and (min-width: 510px) {
     .companies {
@@ -603,3 +500,99 @@ nav i {
         width: 14px;
     }
 }  
+
+                    /* GRADUATES */
+
+
+.graduates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.graduates .left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    padding: 75px 0 75px 0;
+}
+
+.graduates .left_side p {
+    margin: 10px 0 20px 0;
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1F1D22;
+    padding: 15px 18px 15px 14px;
+    height: 154px;
+    max-width: 300px;
+    border-left: solid 3px #245cf5b6;
+    border-radius: 0 7px 7px 0;
+}
+
+.quote span {
+    font-size: 12px;
+    line-height: 1.4rem;
+}
+
+.student {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.graduate {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.graduate span:nth-child(1) {
+    font-size: 13px;
+    font-weight: 500;
+    color: #d5d5d5;
+    margin-bottom: 4px;
+}
+
+.graduate span:nth-child(2) {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0 0 24px;
+    width: 100px;
+}
+
+.stars i {
+    color: #ebad10;
+    font-size: 12px;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 42px;
+}
+
+.circle {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+.circle:nth-child(1) {
+    background-color: #ffffff;
+}
