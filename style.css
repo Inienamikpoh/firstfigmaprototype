@@ -292,11 +292,87 @@ nav i {
 .interlude_1 .learning div i {
     font-size: 32px;
 }
+
 .interlude_1 .curriculum div i {
     font-size: 24px;
 }
+
 .interlude_1 .project div i {
     font-size: 28px;
+}
+
+
+                    /* media queries */
+
+
+@media screen and (min-width: 645px) {
+    .interlude_1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        column-gap: 8%;
+    }
+
+    .interlude_1 :nth-child(3) {
+        /* position: relative; */
+        left: 100%;
+    }
+}                   
+
+@media screen and (min-width: 725px) {
+    .interlude_1 {
+        column-gap: 6%;
+    }
+
+    .interlude_1 div {
+        height: 180px;
+        max-width: 280px;
+    }
+
+    .interlude_1 div div {
+        height: 65px;
+        width: 65px;
+    }
+
+    .interlude_1 div h5 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1015px) {
+    .interlude_1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 4%;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .interlude_1 div {
+        height: 180px;
+        max-width: 280px;
+    }
+
+    .interlude_1 div div {
+        height: 70px;
+        width: 70px;
+    }
+
+    .interlude_1 .learning div i {
+        font-size: 40px;
+    }
+
+    .interlude_1 .curriculum div i {
+        font-size: 32px;
+    }
+
+    .interlude_1 .project div i {
+        font-size: 34px;
+    }
+
+    .interlude_1 div h5 {
+        font-size: 16px;
+    }
 }
 
 
@@ -448,7 +524,9 @@ nav i {
     width: 150px;
 }
 
+
                     /* media queries  */
+
 
 @media screen and (min-width: 510px) {
     .companies {
@@ -500,6 +578,7 @@ nav i {
         width: 14px;
     }
 }  
+
 
                     /* GRADUATES */
 
@@ -554,14 +633,14 @@ nav i {
     flex-direction: column;
 }
  
-.graduate span:nth-child(1) {
+.graduate :nth-child(1) {
     font-size: 13px;
     font-weight: 500;
     color: #d5d5d5;
     margin-bottom: 4px;
 }
 
-.graduate span:nth-child(2) {
+.graduate :nth-child(2) {
     font-size: 12px;
     color: #b0b0b0;
 }
