@@ -702,10 +702,8 @@ footer {
     padding: 75px 0 100px;
 }
 
-.footer div:nth-child(2) ul, .footer div:nth-child(3) ul {
-    /* padding-left: 0; */
-    /* padding-left: 0; */
-    /* list-style-type: none; */
+.footer ul {
+    list-style-type: none;
     background-color: red;
 }
 
