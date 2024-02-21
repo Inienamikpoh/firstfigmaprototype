@@ -705,6 +705,7 @@ footer {
 .footer ul {
     list-style-type: none;
     background-color: red;
+    list-style: square inside;
 }
 
 .top_left {
