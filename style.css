@@ -703,9 +703,8 @@ footer {
 }
 
 .footer ul {
-    list-style-type: none;
     background-color: red;
-    list-style: square inside;
+    list-style: inside;
 }
 
 .top_left {
