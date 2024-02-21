@@ -702,6 +702,12 @@ footer {
     padding: 75px 0 100px;
 }
 
+.footer div:nth-child(2), .footer div:nth-child(3) {
+    /* padding-left: 0; */
+    /* padding-left: 0; */
+    list-style-type: none;
+}
+
 .top_left {
     background-color: bisque;
 }
