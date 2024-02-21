@@ -702,10 +702,11 @@ footer {
     padding: 75px 0 100px;
 }
 
-.footer div:nth-child(2), .footer div:nth-child(3) {
+.footer div:nth-child(2) ul, .footer div:nth-child(3) ul {
     /* padding-left: 0; */
     /* padding-left: 0; */
-    list-style-type: none;
+    /* list-style-type: none; */
+    background-color: red;
 }
 
 .top_left {
@@ -718,8 +719,8 @@ footer {
 
 .bottom_left {
     background-color: chartreuse;
-}
+} 
 
 .bottom_right {
-    background-color: crimson;
+    background-color: yellow;
 }
