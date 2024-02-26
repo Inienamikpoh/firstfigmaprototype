@@ -707,6 +707,10 @@ footer {
     list-style: inside;
 }
 
+.footer :not(.top_left) h5 {
+    color: #000000;
+}
+
 .top_left {
     background-color: bisque;
 }
