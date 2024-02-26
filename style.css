@@ -711,6 +711,9 @@ footer {
     color: #000000;
 }
 
+.footer .top_left {
+    color: #ffffff;
+}
 .top_left {
     background-color: bisque;
 }
