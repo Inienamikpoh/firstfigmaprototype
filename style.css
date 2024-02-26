@@ -698,7 +698,7 @@ footer {
     grid-template-columns: auto;
     width: 90%;
     max-width: 1440px;
-    background-color: #a5e1ff;
+    /* background-color: #a5e1ff; */
     padding: 75px 0 100px;
 }
 
@@ -711,9 +711,10 @@ footer {
     color: #000000;
 }
 
-.footer .top_left {
-    color: #ffffff;
+.footer .top_left h5 {
+   color: #3066fce6;
 }
+
 .top_left {
     background-color: bisque;
 }
