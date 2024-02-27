@@ -732,31 +732,29 @@ footer {
     color: #3066fce6;
 }
 
-.footer :not(.top_left) h5 {
+.footer .footer_item {
     margin-bottom: 50px;
 }
+
 .footer :nth-child(1) {
     height: 220px;
     max-width: 350px;
     padding: 35px 0 25px;
 }
 
-.footer .top_left {
-}
-
-.top_left {
+.footer :nth-child(1) {
     background-color: bisque;
 }
 
-.top_right {
+.footer :nth-child(2) {
     background-color: cadetblue;
 }
 
-.bottom_left {
+.footer :nth-child(3) {
     background-color: chartreuse;
 } 
 
-.bottom_right {
+.footer :nth-child(4) {
     background-color: yellow;
 }
 
