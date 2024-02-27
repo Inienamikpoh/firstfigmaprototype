@@ -686,7 +686,6 @@ nav i {
 
 footer {
     display: flex; 
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -698,8 +697,8 @@ footer {
     grid-template-columns: auto;
     width: 90%;
     max-width: 1440px;
-    /* background-color: #a5e1ff; */
-    padding: 75px 0 100px;
+    background-color: #a5e1ff;
+    margin: 75px 0 75px;
 }
 
 .footer ul {
@@ -708,16 +707,20 @@ footer {
 }
 
 .footer h5 {
-    color: #000000;
+    color: #262626;
     font-weight: 600;
 }
-
+.footer .top_left p {
+    line-height: 1.6rem;
+}
 .footer .top_left h4 {
+    font-weight: 500;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #3066fce6;
 }
 .footer div {
-    height: 300px;
+    /* height: 300px; */
 }
 .footer :not(.top_left) div {
     display: flex;
@@ -727,27 +730,26 @@ footer {
 .footer .top_left {
     height: 220px;
     max-width: 350px;
-    word-wrap: break-word;
 }
 
 .footer .top_left {
-    padding: 40px 0 30px;
+    padding: 35px 0 25px;
 }
 
 .top_left {
-    /* background-color: bisque; */
+    background-color: bisque;
 }
 
 .top_right {
-    /* background-color: cadetblue; */
+    background-color: cadetblue;
 }
 
 .bottom_left {
-    /* background-color: chartreuse; */
+    background-color: chartreuse;
 } 
 
 .bottom_right {
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 @media screen and (min-width: 600px) {
