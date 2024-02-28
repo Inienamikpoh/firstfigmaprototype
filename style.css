@@ -306,6 +306,7 @@ nav i {
 
 
 @media screen and (min-width: 645px) {
+
     .interlude_1 {
         display: grid;
         grid-template-columns: auto auto;
@@ -320,6 +321,7 @@ nav i {
 }                   
 
 @media screen and (min-width: 725px) {
+
     .interlude_1 {
         column-gap: 6%;
     }
@@ -340,6 +342,7 @@ nav i {
 }
 
 @media screen and (min-width: 1015px) {
+
     .interlude_1 {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -352,6 +355,7 @@ nav i {
 }
 
 @media screen and (min-width: 1230px) {
+
     .interlude_1 div {
         height: 180px;
         max-width: 280px;
@@ -533,6 +537,7 @@ nav i {
 
 
 @media screen and (min-width: 510px) {
+
     .companies {
         display: grid;
         grid-template-columns: auto auto;
@@ -540,6 +545,7 @@ nav i {
 }
 
 @media screen and (min-width: 660px) {
+
     .companies {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -556,6 +562,7 @@ nav i {
 }
 
 @media screen and (min-width: 900px) {
+
     .companies {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -571,6 +578,7 @@ nav i {
 }
 
 @media screen and (min-width: 1080px) {
+
     .company {
         font-size: 20px;
         padding: 24px 46px 24px 46px;
@@ -761,7 +769,12 @@ footer {
     color: #245CF5;
 }
 
+
+                    /* media queries */
+
+                    
 @media screen and (min-width: 520px) {
+
     .footer {
         grid-template-columns: auto auto;
         column-gap: 15%;
@@ -770,6 +783,7 @@ footer {
 }
 
 @media screen and (min-width: 780px) {
+
     .footer {
         grid-template-columns: auto auto auto;
         column-gap: 10%;
@@ -777,6 +791,7 @@ footer {
 }
 
 @media screen and (min-width: 920px) {
+    
     .footer .first_footer_item p{
         font-size: 14px;
     }
@@ -789,8 +804,8 @@ footer {
         height: 90px;
     }
 
-    footer div ul li {
-        font-size: 16px;
+    .footer div ul li {
+        font-size: 14px;
     }
 
     .footer div ul li::marker {
@@ -799,6 +814,7 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
+
     .footer .first_footer_item p{
         font-size: 14px;
     }
@@ -811,8 +827,8 @@ footer {
         height: 90px;
     }
 
-    footer div ul li {
-        font-size: 16px;
+    .footer div ul li {
+        font-size: 15px;
     }
 
     .footer div ul li::marker {
@@ -821,7 +837,29 @@ footer {
 }
 
 @media screen and (min-width: 1300px) {
+
     .footer {
         grid-template-columns: auto auto auto auto;
+        column-gap: 6%;
+    }
+
+    .footer .first_footer_item p{
+        font-size: 15px;
+    }
+
+    .footer div h4 {
+        font-size: 24px;
+    }
+
+    .footer div h5 {
+        font-size: 17px;
+    }
+
+    .footer ul {
+        height: 100px;
+    }
+
+    .footer div ul li::marker {
+        font-size: 17px;
     }
 }
