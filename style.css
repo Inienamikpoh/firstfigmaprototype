@@ -152,7 +152,15 @@ nav i {
     color: #ffffff;
 }
 
+                    /* media queries */
 
+@media screen and (min-width: 500px) {
+    
+    .nav_items,
+    .login {
+        display: none;
+    }
+}
                     /* HERO */
 
 
