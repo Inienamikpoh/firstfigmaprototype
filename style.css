@@ -530,11 +530,14 @@ nav i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 13px;
     padding: 27px 42px 27px 42px;
     width: 150px;
 }
 
+.company p {
+    font-size: 13px;
+    color: #6d6d6d;
+}
 
                     /* media queries  */
 
@@ -583,9 +586,13 @@ nav i {
 @media screen and (min-width: 1080px) {
 
     .company {
-        font-size: 20px;
-        padding: 24px 46px 24px 46px;
-        width: 160px;
+        padding: 28px 46px 28px 46px;
+        width: 170px;
+    }
+
+    .company p {
+        font-size: 14px;
+        font-weight: 400;
     }
 
     .company img {
@@ -593,6 +600,24 @@ nav i {
         width: 14px;
     }
 }  
+
+@media screen and (min-width: 1360px) {
+
+    .company {
+        padding: 34px 57px;
+        width: 200px;
+    }
+
+    .company p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .company img {
+        height: 15px;
+        width: 15px;
+    }
+}
 
 
                     /* GRADUATES */
@@ -819,7 +844,7 @@ footer {
 
 @media screen and (min-width: 1080px) {
 
-    .footer .first_footer_item p{
+    .footer .first_footer_item p {
         font-size: 14px;
     }
 
