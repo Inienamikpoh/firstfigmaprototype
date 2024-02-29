@@ -347,7 +347,7 @@ nav i {
     .interlude_1 {
         display: grid;
         grid-template-columns: auto auto auto;
-        column-gap: 4%;
+        column-gap: 6%;
     }
 
     .interlude_1 div:nth-child(3) {
@@ -357,26 +357,30 @@ nav i {
 
 @media screen and (min-width: 1230px) {
 
+    .interlude_1 {
+        column-gap: 10%;
+    }
+
     .interlude_1 div {
         height: 180px;
         max-width: 280px;
     }
 
     .interlude_1 div div {
-        height: 70px;
-        width: 70px;
+        height: 65px;
+        width: 65px;
     }
 
     .interlude_1 .learning div i {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .interlude_1 .curriculum div i {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .interlude_1 .project div i {
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .interlude_1 div h5 {
@@ -384,6 +388,26 @@ nav i {
     }
 }
 
+@media screen and (min-width: 1360px) {
+
+    .interlude_1 {
+        column-gap: 15%;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    
+    .interlude_1 {
+        column-gap: 17%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .interlude_1 {
+        column-gap: 19%;
+    }
+}
 
                     /* FIRST SECTION */
 
@@ -538,6 +562,7 @@ nav i {
     font-size: 13px;
     color: #6d6d6d;
 }
+
 
                     /* media queries  */
 
