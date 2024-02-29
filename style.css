@@ -122,6 +122,7 @@ nav {
 
 .nav_items {
     width: 60%;
+    margin-right: 50px;
 }
 
 .nav_items ul {
@@ -166,6 +167,19 @@ nav i {
     }
 }
 
+@media screen and (min-width: 1200px) {
+
+    .nav_items {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1390px) {
+
+    .nav_items {
+        margin-right: 150px;
+    }
+}
 
                     /* HERO */
 
@@ -285,19 +299,67 @@ nav i {
     .left_side img, .right_side img {
         max-width: 350px;
     } 
-    
 }
 
-@media screen and (min-width: 915px) {
+@media screen and (min-width: 955px) {
 
     .hero .left_side {
-        max-width: 400px;
+        max-width: 410px;
+    }
+
+    .hero .left_side h1 {
+        font-size: 30px;
     }
 
     .hero .left_side p {
-        font-size: 14px;
+        max-width: 364px;
     }
 }
+
+@media screen and (min-width: 1070px) {
+    
+    .hero {
+        gap: 14%;
+    }
+
+    .left_side img, .right_side img {
+        max-width: 370px;
+    }
+}
+
+@media screen and (min-width: 1115px) {
+    
+    .hero {
+        gap: 16%;
+    }
+
+    .hero .left_side {
+        max-width: 440px;
+    }
+
+    .hero .left_side h1 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .hero {
+        gap: 20%;
+    }
+
+    .left_side img, .right_side img {
+        max-width: 400px;
+    } 
+}
+
+@media screen and (min-width: 1230px) {
+
+    .hero .left_side {
+        max-width: 450px;
+    }
+}
+
                     /* INTERLUDE */
 
 
@@ -894,7 +956,7 @@ footer {
 @media screen and (min-width: 920px) {
     
     .footer .first_footer_item p{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .footer div h5 {
@@ -915,10 +977,6 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
-
-    .footer .first_footer_item p {
-        font-size: 14px;
-    }
 
     .footer div h5 {
         font-size: 16px;
@@ -948,7 +1006,7 @@ footer {
 @media screen and (min-width: 1300px) {
 
     .footer .first_footer_item p{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .footer div h4 {
