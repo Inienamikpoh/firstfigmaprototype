@@ -412,12 +412,12 @@ nav i {
 @media screen and (min-width: 1440px) {
 
     .hero {
-        gap: 18%;
+        gap: 12%;
     }
 
     .hero .left_side h1 {
         font-size: 43px;
-        width: 580px;
+        max-width: 580px;
     }
 
     .hero .left_side p {
@@ -1013,7 +1013,7 @@ footer {
 
     .footer {
         grid-template-columns: auto auto;
-        column-gap: 15%;
+        column-gap: 6%;
         row-gap: 0px;
     }
 }
