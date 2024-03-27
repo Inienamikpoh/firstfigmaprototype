@@ -83,6 +83,7 @@ section {
     background-color: #245CF5;
 }
 
+
                     /* HEADER & NAV */
 
 
@@ -152,7 +153,9 @@ nav i {
     color: #ffffff;
 }
 
+
                     /* media queries */
+
 
 @media screen and (min-width: 980px) {
 
@@ -179,6 +182,7 @@ nav i {
         margin-right: 150px;
     }
 }
+
 
                     /* HERO */
 
@@ -590,6 +594,7 @@ nav i {
         column-gap: 19%;
     }
 }
+
 
                     /* FIRST SECTION */
 
