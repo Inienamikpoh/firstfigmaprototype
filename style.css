@@ -950,10 +950,10 @@ footer {
     margin: 75px 0 75px;
 }
 
-.footer .first_footer_item {
+.first_footer_item {
     height: 220px;
     max-width: 320px;
-    padding: 20px 0 25px;
+    padding: 30px 0 20px;
     overflow-wrap: break-word;
 }
 
@@ -964,7 +964,7 @@ footer {
     color: #3569f9e6;
 }
 
-.footer .first_footer_item p {
+.first_footer_item p {
     line-height: 1.6rem;
 }
 
@@ -985,7 +985,7 @@ footer {
 
 .footer div ul li {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     color: #555555;
 }
 
@@ -1033,7 +1033,7 @@ footer {
 
 @media screen and (min-width: 920px) {
     
-    .footer .first_footer_item p{
+    .first_footer_item p {
         font-size: 13px;
     }
 
@@ -1083,12 +1083,19 @@ footer {
 
 @media screen and (min-width: 1300px) {
 
-    .footer .first_footer_item p{
-        font-size: 14px;
+    .first_footer_item {
+        max-width: 360px;
     }
 
+    .footer .first_footer_item p {
+        font-size: 15px;
+        line-height: 2rem;
+    }
+    
     .footer div h4 {
+        font-weight: 500;
         font-size: 24px;
+        margin: 0 0 6px;
     }
 
     .footer div h5 {
