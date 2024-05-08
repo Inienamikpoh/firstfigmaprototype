@@ -953,7 +953,7 @@ footer {
 .first_footer_item {
     height: 220px;
     max-width: 320px;
-    padding: 30px 0 20px;
+    padding: 40px 0 10px;
     overflow-wrap: break-word;
 }
 
@@ -969,14 +969,14 @@ footer {
 }
 
 .footer div h5 {
-    margin: 0 0 45px;
+    margin: 0 0 50px;
     font-weight: 600;
     color: #262626;
 }
 
 .footer ul {
     display: flex;
-    height: 78px;
+    height: 80px;
     flex-direction: column;
     justify-content: space-between;
     list-style-type: disc;
@@ -1002,11 +1002,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 120px;
+    max-width: 150px;
 }
 
 .socials i {
     font-size: 20px;
+    margin: 0 10px;
     color: #245CF5;
 }
 
@@ -1029,6 +1030,10 @@ footer {
         grid-template-columns: auto auto auto;
         column-gap: 10%;
     }
+
+    .footer ul {
+        height: 90px;
+    }
 }
 
 @media screen and (min-width: 920px) {
@@ -1039,10 +1044,6 @@ footer {
 
     .footer div h5 {
         font-size: 16px;
-    }
-
-    .footer ul {
-        height: 90px;
     }
 
     .footer div ul li {
@@ -1103,7 +1104,7 @@ footer {
     }
 
     .footer ul {
-        height: 100px;
+        height: 90px;
     }
 
     .footer div ul li::marker {
