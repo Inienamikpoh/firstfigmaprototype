@@ -121,8 +121,8 @@ nav {
 }
 
 .nav_items {
-    width: 60%;
-    margin-right: 50px;
+    width: 50%;
+    margin-right: 100px;
 }
 
 .nav_items ul {
@@ -132,6 +132,10 @@ nav {
     list-style: none;
     font-size: 13px;
     width: 100%;
+}
+
+.nav_items li {
+    font-weight: 500;
 }
 
 .nav_items,
@@ -172,14 +176,21 @@ nav i {
 @media screen and (min-width: 1200px) {
 
     .nav_items {
-        margin-right: 100px;
+        width: 45%;
+        margin-right: 150px;
     }
 }
 
 @media screen and (min-width: 1390px) {
 
+
+    .logo {
+        font-size: 36px;
+    }
+
     .nav_items {
-        margin-right: 150px;
+        width: 40%;
+        margin-right: 200px;
     }
 }
 
