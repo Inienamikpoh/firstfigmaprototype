@@ -146,10 +146,9 @@ nav {
 .login {
     font-size: 13px;
     padding: 5px 38px;
-    margin-left: 50px;
     color: #ffffff;
     background-color: transparent;
-    border: 1px solid #b0b0b0;;
+    border: 1px solid #b0b0b0;
 }
 
 nav i {
@@ -178,6 +177,12 @@ nav i {
     .nav_items {
         width: 45%;
         margin-right: 150px;
+    }
+
+    .login {
+        font-size: 13px;
+        padding: 6px 44px;
+        border: 2px solid #b0b0b0;
     }
 }
 
@@ -514,7 +519,7 @@ nav i {
 
     .interlude_1 div:nth-child(3) {
         position: relative;
-        left: 60%;
+        left: 59%;
     }
 }                   
 
