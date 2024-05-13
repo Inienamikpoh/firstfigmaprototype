@@ -134,6 +134,10 @@ nav {
     width: 100%;
 }
 
+.nav_items ul :nth-child(1) {
+    color: #245CF5;
+}
+
 .nav_items li {
     font-weight: 500;
 }
@@ -179,9 +183,13 @@ nav i {
         margin-right: 180px;
     }
 
+    .nav_items li {
+        font-size: 14px;
+    }
+
     .login {
         font-size: 13px;
-        padding: 6px 44px;
+        padding: 6px 45px;
         border: 2px solid #b0b0b0;
     }
 }
