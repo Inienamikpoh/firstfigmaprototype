@@ -175,8 +175,8 @@ nav i {
 @media screen and (min-width: 1200px) {
 
     .nav_items {
-        width: 45%;
-        margin-right: 150px;
+        width: 50%;
+        margin-right: 180px;
     }
 
     .login {
@@ -194,8 +194,8 @@ nav i {
     }
 
     .nav_items {
-        width: 40%;
-        margin-right: 200px;
+        width: 46%;
+        margin-right: 220px;
     }
 }
 
