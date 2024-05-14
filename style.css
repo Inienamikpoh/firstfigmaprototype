@@ -179,7 +179,7 @@ nav i {
 @media screen and (min-width: 1200px) {
 
     .nav_items {
-        width: 50%;
+        width: 45%;
         margin-right: 180px;
     }
 
@@ -202,8 +202,8 @@ nav i {
     }
 
     .nav_items {
-        width: 46%;
-        margin-right: 220px;
+        width: 40%;
+        margin-right: 250px;
     }
 }
 
