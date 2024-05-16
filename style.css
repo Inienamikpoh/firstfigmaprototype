@@ -178,6 +178,10 @@ nav i {
 
 @media screen and (min-width: 1200px) {
 
+    .up {
+        height: 85px;
+    }
+
     .nav_items {
         width: 48%;
         margin-right: 200px;
