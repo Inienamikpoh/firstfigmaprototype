@@ -58,7 +58,7 @@ section {
     align-items: center;
     justify-content: center;
     width: 90%;
-    max-width: 1440px;
+    max-width: 1280px;
 }
 
 .left_side,
@@ -113,7 +113,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    max-width: 1440px;
+    max-width: 1280px;
 }
 
 .logo {
@@ -122,7 +122,7 @@ nav {
 
 .nav_items {
     width: 52%;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .nav_items ul {
@@ -183,8 +183,8 @@ nav i {
     }
 
     .nav_items {
-        width: 48%;
-        margin-right: 200px;
+        width: 49%;
+        margin-right: 150px;
     }
 
     .nav_items li {
@@ -198,7 +198,7 @@ nav i {
     }
 }
 
-@media screen and (min-width: 1390px) {
+@media screen and (min-width: 1280px) {
 
 
     .logo {
@@ -206,8 +206,8 @@ nav i {
     }
 
     .nav_items {
-        width: 44%;
-        margin-right: 350px;
+        width: 46%;
+        margin-right: 250px;
     }
 }
 
@@ -220,13 +220,13 @@ nav i {
     flex-direction: column;
     margin-top: 100px;
     width: 90%;
-    max-width: 1440px;
+    max-width: 1280px;
 }
 
 .hero .left_side {
     align-items: start;
     overflow-wrap: break-word;
-    padding: 90px 0 45px 0;
+    padding: 70px 0 45px 0;
     max-width: 598px;
 }
 
@@ -318,6 +318,7 @@ nav i {
 @media screen and (min-width: 860px) {
 
     .hero {
+        padding: 90px 0 45px 0;
         margin-top: 120px;
         flex-direction: row;
         gap: 10%;
@@ -330,6 +331,13 @@ nav i {
     .left_side img, .right_side img {
         max-width: 350px;
     } 
+
+    .hero .right_side {
+        /* flex-direction: row; */
+        justify-content: right;
+        align-items: right;
+        flex: 1;
+    }
 }
 
 @media screen and (min-width: 955px) {
@@ -475,7 +483,7 @@ nav i {
     justify-content: center;
     font-weight: 400;
     width: 90%;
-    max-width: 1440px;
+    max-width: 1280px;
     padding: 75px 0 100px;
 }
 
@@ -745,6 +753,7 @@ nav i {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1280px;
     margin-bottom: 50px;
 }
 
@@ -826,7 +835,7 @@ nav i {
 @media screen and (min-width: 1080px) {
 
     .company {
-        padding: 28px 46px 28px 46px;
+        padding: 28px 46px;
         width: 170px;
     }
 
@@ -841,15 +850,15 @@ nav i {
     }
 }  
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1280px) {
 
     .company {
-        padding: 34px 57px;
+        padding: 38px 58px;
         width: 200px;
     }
 
     .company p {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
     }
 
@@ -974,7 +983,7 @@ footer {
     grid-template-columns: auto;
     row-gap: 50px;
     width: 90%;
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 75px 0 75px;
 }
 
