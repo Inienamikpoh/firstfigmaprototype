@@ -267,7 +267,7 @@ nav i {
     padding-right: 4px;
 }
 
-.triangle{
+.triangle {
     border-color: transparent transparent #ffffff transparent;
     border-style: solid;
     border-width: 0px 4px 6px 4px;
@@ -429,6 +429,10 @@ nav i {
     .hero .left_side p {
         margin-top: 14px;
     }
+
+    .left_side img, .right_side img {
+        max-width: 500px;
+    } 
 }
 
 @media screen and (min-width: 1400px) {
@@ -447,6 +451,10 @@ nav i {
         max-width: 380px;
         line-height: 1.7rem;
     }
+
+    .left_side img, .right_side img {
+        max-width: 550px;
+    } 
 }
 
 @media screen and (min-width: 1440px) {
@@ -470,6 +478,10 @@ nav i {
     .hero .play {
         width: 130px;
     }
+
+    .left_side img, .right_side img {
+        max-width: 600px;
+    } 
 }
 
 
