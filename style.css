@@ -231,7 +231,7 @@ nav i {
 
 .hero .left_side p {
     margin-top: 10px;
-    max-width: 552px;
+    max-width: 550px;
 }
 
 .get_started {
@@ -322,6 +322,11 @@ nav i {
 
 @media screen and (min-width: 580px) {
 
+    .hero .left_side p {
+        margin-top: 15px;
+        line-height: 1.5rem;
+    }
+
     .left_side img, .right_side img {
         max-width: 380px;
     } 
@@ -334,7 +339,7 @@ nav i {
     } 
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 862px) {
 
     .hero {
         padding: 90px 0 45px 0;
@@ -376,8 +381,7 @@ nav i {
     }
 
     .hero .left_side p {
-        max-width: 364px;
-        line-height: 1.6rem;
+        max-width: 338px;
     }
 }
 
@@ -419,29 +423,36 @@ nav i {
     }
 }
 
-@media screen and (min-width: 1115px) {
-    
-    .hero {
-        gap: 16%;
-    }
+@media screen and (min-width: 1100px) {
 
     .hero .left_side {
-        max-width: 440px;
+        max-width: 480px;
+    }
+
+    .hero .left_side p {
+        font-size: 14px;
+        max-width: 400px;
+        line-height: 1.6rem;
     }
 
     .hero .left_side h1 {
-        font-size: 33px;
+        font-size: 34px;
+    }
+
+    .get_started p {
+        font-size: 13px;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    
-    .hero {
-        gap: 18%;
+@media screen and (min-width: 1180px) {
+
+    .hero .left_side h1 {
+        font-size: 36px;
+        line-height: 3.5rem;
     }
 
     .left_side img, .right_side img {
-        max-width: 400px;
+        max-width: 500px;
     } 
 }
 
@@ -453,7 +464,7 @@ nav i {
 
     .hero .left_side h1 {
         font-size: 34px;
-        line-height: 3.5rem;
+        line-height: 3.6rem;
     }
 }
 
@@ -478,10 +489,6 @@ nav i {
         font-size: 38px;
     }
 
-    .hero .left_side p {
-        margin-top: 14px;
-    }
-
     .left_side img, .right_side img {
         max-width: 500px;
     } 
@@ -499,9 +506,13 @@ nav i {
 
     .hero .left_side p {
         margin-top: 16px;
-        font-size: 14px;
-        max-width: 380px;
+        font-size: 15px;
+        max-width: 410px;
         line-height: 1.7rem;
+    }
+
+    .get_started p {
+        font-size: 13px;
     }
 
     .left_side img, .right_side img {
@@ -526,9 +537,8 @@ nav i {
     }
 
     .hero .left_side p {
-        margin-top: 16px;
-        font-size: 15px;
-        max-width: 394px;
+        font-size: 16px;
+        max-width: 420px;
         line-height: 1.8rem;
     }
 
