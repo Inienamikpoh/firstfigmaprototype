@@ -183,7 +183,7 @@ nav i {
     }
 
     .nav_items {
-        width: 49%;
+        width: 50%;
         margin-right: 150px;
     }
 
@@ -205,8 +205,8 @@ nav i {
     }
 
     .nav_items {
-        width: 46%;
-        margin-right: 250px;
+        width: 48%;
+        margin-right: 220px;
     }
 }
 
@@ -229,7 +229,7 @@ nav i {
     max-width: 598px;
 }
 
-.hero .left_side p {
+.hero .left_side .blurb {
     margin-top: 10px;
     max-width: 550px;
 }
@@ -238,7 +238,7 @@ nav i {
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -248,10 +248,11 @@ nav i {
 
 .play {
     display: flex;
-    align-items: end;
+    align-content: baseline;
+    align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 18px;
+    height: 20px;
     width: 110px;
 }
 
@@ -276,6 +277,7 @@ nav i {
 }
 
 .play p {
+    margin-top: 0;
     color: #ffffff;
     font-size: 13px;
 }
@@ -322,7 +324,7 @@ nav i {
 
 @media screen and (min-width: 580px) {
 
-    .hero .left_side p {
+    .hero .left_side .blurb {
         margin-top: 15px;
         line-height: 1.5rem;
     }
@@ -380,8 +382,8 @@ nav i {
         font-size: 30px;
     }
 
-    .hero .left_side p {
-        max-width: 338px;
+    .hero .left_side .blurb {
+        max-width: 340px;
     }
 }
 
@@ -408,7 +410,7 @@ nav i {
     }
 
     .left_side img, .right_side img {
-        max-width: 430px;
+        max-width: 420px;
     } 
 }
 
@@ -419,7 +421,7 @@ nav i {
     }
 
     .left_side img, .right_side img {
-        max-width: 480px;
+        max-width: 450px;
     }
 }
 
@@ -429,9 +431,9 @@ nav i {
         max-width: 480px;
     }
 
-    .hero .left_side p {
+    .hero .left_side .blurb {
         font-size: 14px;
-        max-width: 400px;
+        max-width: 365px;
         line-height: 1.6rem;
     }
 
@@ -439,12 +441,16 @@ nav i {
         font-size: 34px;
     }
 
+    .play {
+        width: 120px;
+    }
+
     .get_started p {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1160px) {
 
     .hero .left_side h1 {
         font-size: 36px;
@@ -452,34 +458,65 @@ nav i {
     }
 
     .left_side img, .right_side img {
+        max-width: 480px;
+    } 
+}
+
+@media screen and (min-width: 1180px) {
+
+    .hero .left_side h1 {
+        font-size: 37px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .hero .left_side {
         max-width: 500px;
+    }
+
+    .hero .left_side h1 {
+        font-size: 38px;
+        line-height: 3.6rem;
+    }
+
+    .left_side img, .right_side img {
+        width: 480px;
     } 
 }
 
 @media screen and (min-width: 1230px) {
-
+    
     .hero .left_side {
-        max-width: 450px;
+        max-width: 520px;
     }
 
     .hero .left_side h1 {
-        font-size: 34px;
-        line-height: 3.6rem;
+        font-size: 39px;
+        line-height: 3.8rem;
     }
 }
 
-@media screen and (min-width: 1320px) {
+
+@media screen and (min-width: 1280px) {
 
     .hero {
         margin-top: 150px;
+        gap: 8%;
     }
 
-    .left_side img, .right_side img {
-        max-width: 450px;
-    } 
+    .hero .left_side {
+        max-width: 560px;
+    }
+
+    .hero .left_side h1 {
+        font-size: 42px;
+        line-height: 4rem;
+    }
 }
 
-@media screen and (min-width: 1340px) {
+/* @media screen and (min-width: 1340px) {
 
     .hero .left_side {
         max-width: 490px;
@@ -488,10 +525,6 @@ nav i {
     .hero .left_side h1 {
         font-size: 38px;
     }
-
-    .left_side img, .right_side img {
-        max-width: 500px;
-    } 
 }
 
 @media screen and (min-width: 1400px) {
@@ -504,26 +537,30 @@ nav i {
         font-size: 40px;
     }
 
-    .hero .left_side p {
+    .hero .left_side .blurb {
         margin-top: 16px;
         font-size: 15px;
         max-width: 410px;
         line-height: 1.7rem;
     }
 
+    .play {
+        width: 125px;
+    }
+
     .get_started p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .left_side img, .right_side img {
-        max-width: 550px;
+        width: 530px;
     } 
 }
 
 @media screen and (min-width: 1440px) {
 
     .hero {
-        gap: 12%;
+        gap: 10%;
     }
 
     .hero .left_side {
@@ -536,20 +573,24 @@ nav i {
         line-height: 4.5rem;
     }
 
-    .hero .left_side p {
+    .hero .left_side .blurb {
         font-size: 16px;
         max-width: 420px;
         line-height: 1.8rem;
     }
 
-    .hero .play {
+    .play {
         width: 130px;
     }
 
+    .get_started p {
+        font-weight: 500;
+    }
+
     .left_side img, .right_side img {
-        max-width: 600px;
+        width: 550px;
     } 
-}
+} */
 
 
                     /* INTERLUDE */
