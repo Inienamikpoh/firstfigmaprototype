@@ -723,6 +723,7 @@ nav i {
         display: grid;
         grid-template-columns: auto auto auto;
         column-gap: 6%;
+        padding: 100px 0 100px;
     }
 
     .interlude_1 div:nth-child(3) {
@@ -789,17 +790,23 @@ nav i {
     .interlude_1 {
         column-gap: 16%;
     }
+
+    .interlude_1 div p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     
     .interlude_1 {
-        column-gap: 12%;
+        column-gap: 10%;
+        padding: 120px 0 120px;
     }
 
     .interlude_1 div {
-        height: 220px;
+        height: 200px;
         max-width: 340px;
+        margin: 0;
     }
 
     .interlude_1 div div {
@@ -825,7 +832,7 @@ nav i {
 
     .interlude_1 div p {
         margin-top: 16px;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.8rem;
     }
 }
