@@ -640,7 +640,7 @@ nav i {
 }
 
 .interlude_1 div {
-    height: 170px;
+    height: 160px;
     max-width: 270px;
     display: flex;
     flex-direction: column;
@@ -661,7 +661,8 @@ nav i {
 }
 
 .interlude_1 div p {
-    margin-top: 14px;
+    margin-top: 12px;
+    color: #5c5c5c;
 }
 
 .interlude_1 .learning div i {
@@ -765,21 +766,67 @@ nav i {
 @media screen and (min-width: 1360px) {
 
     .interlude_1 {
-        column-gap: 15%;
+        column-gap: 14%;
+    }
+
+    .interlude_1 div {
+        height: 200px;
+        max-width: 290px;
+    }
+
+    .interlude_1 div h5 {
+        font-size: 17px;
+    }
+
+    .interlude_1 div p {
+        margin-top: 15px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 1420px) {
     
     .interlude_1 {
-        column-gap: 17%;
+        column-gap: 16%;
     }
 }
 
 @media screen and (min-width: 1440px) {
     
     .interlude_1 {
-        column-gap: 19%;
+        column-gap: 12%;
+    }
+
+    .interlude_1 div {
+        height: 220px;
+        max-width: 340px;
+    }
+
+    .interlude_1 div div {
+        height: 69px;
+        width: 69px;
+    }
+
+    .interlude_1 .learning div i {
+        font-size: 38px;
+    }
+
+    .interlude_1 .curriculum div i {
+        font-size: 32px;
+    }
+
+    .interlude_1 .project div i {
+        font-size: 34px;
+    }
+
+    .interlude_1 div h5 {
+        font-size: 18px;
+    }
+
+    .interlude_1 div p {
+        margin-top: 16px;
+        font-size: 15px;
+        line-height: 1.8rem;
     }
 }
 
