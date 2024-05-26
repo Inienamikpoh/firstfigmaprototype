@@ -974,6 +974,10 @@ nav i {
 
 @media screen and (min-width: 1440px) {
     
+    .first_section {
+        padding-bottom: 150px;
+    }
+
     .first_section .housing {
         margin-top: 50px;
     }
@@ -1012,7 +1016,6 @@ nav i {
 }
 
 .second_section .left_side {
-    /* align-self: center; */
     align-items: start;
     padding: 20px 0 80px;
     overflow-wrap: break-word;
@@ -1026,6 +1029,107 @@ nav i {
     align-self: center;
 }
 
+
+                    /* media queries */
+
+
+@media screen and (min-width: 862px) {
+
+    .second_section {
+        flex-direction: row;
+        gap: 8%;
+    }
+
+    .second_section .right_side {
+        flex-direction: row;
+        justify-content: end;
+        flex: 1;
+    }
+
+    .second_section .right_side img {
+        width: 100%;
+    }
+
+    .second_section .left_side {
+        padding: 0;
+        align-items: flex-start;
+        width: 46%;
+    }
+
+    .second_section .left_side p {
+        max-width: 380px;
+    }
+
+    .second_section .left_side h2, .second_section .left_side button  {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .second_section .left_side h2 {
+        font-size: 26px;
+    }
+
+    .second_section .left_side p {
+        font-size: 14px;
+        max-width: 410px;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    
+    .second_section .right_side img {
+        max-width: 545px;
+    }
+
+    .second_section .left_side h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+
+    .second_section .left_side h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+
+    .second_section .right_side img {
+        max-width: 588px;
+    }
+
+    .second_section .left_side h2 {
+        font-size: 32px;
+    }
+    
+    .second_section .left_side p {
+        font-size: 15px;
+        max-width: 445px;
+        line-height: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .second_section {
+        padding: 150px 0 150px;
+    }
+
+    .second_section .left_side h2 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .second_section .left_side p {
+        font-size: 16px;
+        max-width: 470px;
+        line-height: 1.8rem;
+    }
+}
 
                     /* THIRD SECTION */
 
