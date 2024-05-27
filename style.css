@@ -1581,55 +1581,6 @@ nav i {
     .graduates .left_side {
         padding: 75px 0 100px;
     }
-
-    .box {
-        padding: 19px 21px 18px 19px;
-        height: 185px;
-        max-width: 360px;
-        border-left: solid 4px #245cf5b6;
-        border-radius: 0 9px 9px 0;
-    }
-    
-    .quote span {
-        font-size: 15px;
-        line-height: 1.7rem;
-    }
-    
-    .student {
-        display: flex;
-        align-items: start;
-        justify-content: left;
-    }
-    
-    .graduate {
-        display: flex;
-        flex-direction: column;
-    }
-     
-    .graduate span:nth-child(1) {
-        font-size: 17px;
-        font-weight: 500;
-        color: #d5d5d5;
-        margin-bottom: 4px;
-    }
-    
-    .graduate span:nth-child(2) {
-        font-size: 16px;
-        color: #b0b0b0;
-    }
-    
-    .stars {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 8px 0 0 24px;
-        width: 130px;
-    }
-    
-    .stars i {
-        color: #ebad10;
-        font-size: 16px;
-    }
 }
 
 @media screen and (min-width: 862px) {
@@ -1665,7 +1616,7 @@ nav i {
     .graduates {
         gap: 8%;
     }
-    
+
     .graduates .left_side h2 {
         font-size: 26px;
     }
@@ -1681,6 +1632,36 @@ nav i {
         font-size: 14px;
         max-width: 330px;
         line-height: 1.6rem;
+    }
+
+    .box {
+        padding: 34px 36px 33px 34px;
+        height: 205px;
+        max-width: 360px;
+        border-left: solid 3px #245cf5b6;
+        border-radius: 0 8px 8px 0;
+    }
+    
+    .quote span {
+        font-size: 13px;
+        line-height: 1.6rem;
+    }
+     
+    .graduate span:nth-child(1) {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .graduate span:nth-child(2) {
+        font-size: 14px;
+    }
+    
+    .stars {
+        width: 110px;
+    }
+    
+    .stars i {
+        font-size: 14px;
     }
 }
 
@@ -1717,6 +1698,36 @@ nav i {
         max-width: 360px;
         line-height: 1.7rem;
     }
+
+    .box {
+        padding: 24px 26px 23px 24px;
+        height: 190px;
+        max-width: 360px;
+        border-left: solid 4px #245cf5b6;
+        border-radius: 0 9px 9px 0;
+    }
+    
+    .quote span {
+        font-size: 14px;
+        line-height: 1.6rem;
+    }
+     
+    .graduate span:nth-child(1) {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .graduate span:nth-child(2) {
+        font-size: 15px;
+    }
+    
+    .stars {
+        width: 120px;
+    }
+    
+    .stars i {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1739,6 +1750,37 @@ nav i {
         max-width: 400px;
         line-height: 1.8rem;
         margin: 6px 0 30px;
+    }
+
+    .box {
+        padding: 19px 21px 18px 19px;
+        height: 185px;
+        max-width: 360px;
+        border-left: solid 4px #245cf5b6;
+        border-radius: 0 9px 9px 0;
+    }
+    
+    .quote span {
+        font-size: 15px;
+        line-height: 1.7rem;
+    }
+     
+    .graduate span:nth-child(1) {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    
+    .graduate span:nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .stars {
+        padding: 10px 0 0 24px;
+        width: 130px;
+    }
+    
+    .stars i {
+        font-size: 16px;
     }
 
     .circles {
