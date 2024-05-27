@@ -438,6 +438,10 @@ nav i {
     .left_side img, .right_side img {
         max-width: 460px;
     }
+
+    .slider_space {
+        margin: 25px 0;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -622,6 +626,10 @@ nav i {
     .left_side img, .right_side img {
         width: 560px;
         max-width: 580px;
+    }
+
+    .slider_space {
+        margin: 60px 0;
     }
 }
 
@@ -1483,7 +1491,7 @@ nav i {
 }
 
 .graduates .left_side p {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px;
     font-size: 12px;
 }
 
@@ -1561,10 +1569,110 @@ nav i {
 
                     /* media queries */
 
+
+@media screen and (min-width: 862px) {
+
+    .graduates {
+        flex-direction: row;
+        gap: 8%;
+    }
+
+    .graduates .right_side {
+        flex-direction: row;
+        justify-content: end;
+        flex: 1;
+    }
+
+    .graduates .right_side img {
+        width: 100%;
+    }
+
+    .graduates .left_side {
+        padding: 0;
+        align-items: flex-start;
+        width: 46%;
+    }
+
+    .graduates .left_side p {
+        max-width: 280px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    
+    .graduates .left_side h2 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .graduates .left_side h2 {
+        font-size: 28px;
+    }
+
+    .graduates .left_side p {
+        font-size: 14px;
+        max-width: 330px;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    
+    .graduates .right_side img {
+        max-width: 545px;
+    }
+
+    .graduates .left_side h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+
+    .graduates .left_side h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+
+    .graduates .right_side img {
+        max-width: 588px;
+    }
+
+    .graduates .left_side h2 {
+        font-size: 34px;
+    }
+    
+    .graduates .left_side p {
+        font-size: 15px;
+        max-width: 360px;
+        line-height: 1.7rem;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     
     .fourth_section {
-        padding: 150px 0 150px;
+        padding: 150px 0 135px;
+    }
+
+    .graduates {
+        margin-top: 75px;
+    }
+
+    .graduates .left_side h2 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .graduates .left_side p {
+        font-size: 16px;
+        max-width: 400px;
+        line-height: 1.8rem;
+        margin: 6px 0 30px;
     }
 
     .circles {
@@ -1575,7 +1683,9 @@ nav i {
         height: 7px;
         width: 7px;
     }
-}                    
+    
+}
+          
 
                     /* FOOTER */
 
