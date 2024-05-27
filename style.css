@@ -1500,15 +1500,15 @@ nav i {
     flex-direction: column;
     justify-content: space-between;
     background-color: #1F1D22;
-    padding: 15px 18px 15px 14px;
-    height: 154px;
-    max-width: 300px;
+    padding: 15px 17px 14px 15px;
+    height: 155px;
+    max-width: 270px;
     border-left: solid 3px #245cf5b6;
     border-radius: 0 7px 7px 0;
 }
 
 .quote span {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.4rem;
 }
 
@@ -1569,12 +1569,74 @@ nav i {
 
                     /* media queries */
 
+@media screen and (min-width: 445px) {
+    
+    .graduates .left_side p {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    
+    .graduates .left_side {
+        padding: 75px 0 100px;
+    }
+
+    .box {
+        padding: 19px 21px 18px 19px;
+        height: 185px;
+        max-width: 360px;
+        border-left: solid 4px #245cf5b6;
+        border-radius: 0 9px 9px 0;
+    }
+    
+    .quote span {
+        font-size: 15px;
+        line-height: 1.7rem;
+    }
+    
+    .student {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+    }
+    
+    .graduate {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .graduate span:nth-child(1) {
+        font-size: 17px;
+        font-weight: 500;
+        color: #d5d5d5;
+        margin-bottom: 4px;
+    }
+    
+    .graduate span:nth-child(2) {
+        font-size: 16px;
+        color: #b0b0b0;
+    }
+    
+    .stars {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8px 0 0 24px;
+        width: 130px;
+    }
+    
+    .stars i {
+        color: #ebad10;
+        font-size: 16px;
+    }
+}
 
 @media screen and (min-width: 862px) {
 
     .graduates {
         flex-direction: row;
-        gap: 8%;
+        gap: 6%;
     }
 
     .graduates .right_side {
@@ -1599,6 +1661,10 @@ nav i {
 }
 
 @media screen and (min-width: 950px) {
+    
+    .graduates {
+        gap: 8%;
+    }
     
     .graduates .left_side h2 {
         font-size: 26px;
