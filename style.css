@@ -875,6 +875,13 @@ nav i {
                     /* media queries */
 
 
+@media screen and (min-width: 500px) {
+    
+    .first_section .right_side p {
+        margin: 15px 12%;
+    }
+}
+
 @media screen and (min-width: 862px) {
 
     .first_section .housing {
@@ -1041,6 +1048,13 @@ nav i {
                     /* media queries */
 
 
+@media screen and (min-width: 500px) {
+    
+    .second_section .left_side p {
+        margin: 15px 12%;
+    }
+}
+
 @media screen and (min-width: 862px) {
 
     .second_section {
@@ -1198,7 +1212,7 @@ nav i {
 
                     /* media queries */
 
-
+                    
 @media screen and (min-width: 862px) {
 
     .third_section {
