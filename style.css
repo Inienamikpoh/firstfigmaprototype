@@ -478,7 +478,11 @@ nav i {
 
     .left_side img, .right_side img {
         max-width: 480px;
-    } 
+    }
+    
+    .slider_space {
+        margin: 30px 0;
+    }
 }
 
 @media screen and (min-width: 1180px) {
@@ -536,7 +540,11 @@ nav i {
 
     .left_side img, .right_side img {
         width: 510px;
-    } 
+    }
+    
+    .slider_space {
+        margin: 40px 0;
+    }
 }
 
 @media screen and (min-width: 1320px) {
@@ -588,7 +596,11 @@ nav i {
 
     .left_side img, .right_side img {
         width: 550px;
-    } 
+    }
+    
+    .slider_space {
+        margin: 50px 0;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -907,6 +919,8 @@ nav i {
     }
 
     .first_section .right_side p {
+        margin-left: 0;
+        margin-right: 0;
         max-width: 395px;
     }
 
@@ -1079,6 +1093,8 @@ nav i {
     }
 
     .second_section .left_side p {
+        margin-left: 0;
+        margin-right: 0;
         max-width: 380px;
     }
 
@@ -1212,7 +1228,7 @@ nav i {
 
                     /* media queries */
 
-                    
+
 @media screen and (min-width: 862px) {
 
     .third_section {
@@ -1600,6 +1616,10 @@ nav i {
 @media screen and (min-width: 862px) {
 
     .graduates {
+        margin-top: 30px;
+    }
+
+    .graduates {
         flex-direction: row;
         gap: 6%;
     }
@@ -1637,6 +1657,10 @@ nav i {
 }
 
 @media screen and (min-width: 1100px) {
+
+    .graduates {
+        margin-top: 40px;
+    }
 
     .graduates .left_side h2 {
         font-size: 28px;
@@ -1681,6 +1705,10 @@ nav i {
 
 @media screen and (min-width: 1160px) {
     
+    .graduates {
+        margin-top: 50px;
+    }
+
     .graduates .right_side img {
         max-width: 545px;
     }
@@ -1698,6 +1726,10 @@ nav i {
 }
 
 @media screen and (min-width: 1320px) {
+
+    .graduates {
+        margin-top: 60px;
+    }
 
     .graduates .right_side img {
         max-width: 588px;
