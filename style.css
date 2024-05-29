@@ -677,6 +677,7 @@ nav i {
     justify-content: center;
     height: 60px;
     width: 60px;
+    margin: 10px 0;
     border-radius: 50%;
     background-color: #2f2f2f;
 }
@@ -825,14 +826,14 @@ nav i {
     }
 
     .interlude_1 div {
-        height: 200px;
+        height: 215px;
         max-width: 340px;
         margin: 0;
     }
 
     .interlude_1 div div {
-        height: 69px;
-        width: 69px;
+        height: 75px;
+        width: 75px;
     }
 
     .interlude_1 .learning div i {
